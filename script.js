@@ -1,34 +1,3 @@
-// Navbar toogler
-function dropNavbar() {
-    var element = document.getElementById("navbar");
-    element.classList.remove("hide");
-}
-
-function dropNavbar() {
-    var element = document.getElementById("navbar");
-    element.classList.remove("hide");
-}
-
-
-
-function dropNavbar() {
-    var element = document.getElementById("navbar");
-
-    if (element.classList) {
-        element.classList.toggle("hide");
-    } else {
-        var classes = element.className.split(" ");
-        var i = classes.indexOf("hide");
-
-        if (i >= 0)
-            classes.splice(i, 1);
-        else
-            classes.push("hide");
-        element.className = classes.join(" ");
-    }
-}
-
-
 // Ripple effect
 
 var btn = document.querySelectorAll('.button');
