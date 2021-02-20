@@ -3,32 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <title>CreatrCSS</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./elements.css">
+    <link rel="stylesheet" href="./marginANDpadding.css">
+    <link rel="stylesheet" href="./components.css">
     <link rel="stylesheet" href="./grid.css">
     <link rel="stylesheet" href="./helper.css">
     <link rel="stylesheet" href="./typoraphy.css">
     <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./custom.css">
     <script src="./script.js"></script>
 </head>
 </ul>
 
 <body>
 
-    <div class="sticked-top">
-        <div class="menu">
-            <a href="">CreatrCSS</a>
-            <div href="javascript:void(0)" class="nav-open" onclick="dropNavbar()">&#9776;</div>
-        </div>
-        <div class="navbar hide" id="navbar"> <a href="" class="title">CreatrCSS</a>
-            <a href="#" class="">Home</a>
-            <a href="#" class="">Docs</a>
-            <a href="#" class="">Themes</a>
-            <a href="#" class="">About</a>
-        </div>
-    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Navigation</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="logo">
+                <a href="">CreatrPages</a></div>
+            <input class="menu-btn" type="checkbox" id="menu-btn"></input>
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </header>
+    </body>
+
+    </html>
 
     <!-- Typography -->
     <section>
@@ -63,37 +83,28 @@
     <!-- Elements -->
     <section>
         <div class="container p-5 m-0">
-            <div class="row">
-                <div class="col default-12 pb-3">
-                    <h2 class="">Buttons</h2>
-                </div>
-            </div>
+
             <div class="row  pb-5">
-                <button href="#" class="button m-1 default ">Default</button>
-
-                <button href="#" class="button  m-1 primary ">Primary</button>
-                <button href="#" class="button  m-1 secondary">Secondary</button>
-                <button href="#" class="button  m-1 info">Info</button>
-                <button href="#" class="button  m-1 success">Success</button>
-                <button href="#" class="button  m-1 warning">Warning</button>
-                <button href="#" class="button  m-1 danger ">Danger</button>
-                <button href="#" class="button  m-1 dark">dark</button>
-
+                <div class="col default-12 medium-6 p-2">
+                    <h2 class="">Buttons</h2>
+                    <button href="#" class="button m-1 default ">Default</button>
+                    <button href="#" class="button  m-1 primary ">Primary</button>
+                    <button href="#" class="button  m-1 secondary">Secondary</button>
+                    <button href="#" class="button  m-1 info">Info</button>
+                    <button href="#" class="button  m-1 success">Success</button>
+                    <button href="#" class="button  m-1 warning">Warning</button>
+                    <button href="#" class="button  m-1 danger ">Danger</button>
+                    <button href="#" class="button  m-1 dark">dark</button>
+                </div>
+                <div class="col default-12 medium-6 p-2">
+                    <h2 class="">Img Auto resposive</h2>
+                    <img src="./images/image.svg" alt="" class="rounded">
+                </div>
             </div>
             <div class="row  pb-5">
                 <div class="col default-12">
-                    <button href="#" class="button small m-1">Button Small</button>
-                    <button href="#" class="button large m-1">Button Large</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col default-12 pb-3">
-                    <h2 class="">Image (Auto resposive, not class requried)</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col default-12 medium-6 large-4 pb-5">
-                    <img src="./images/image.svg" alt="" class="rounded">
+                    <button href="#" class="button small m-1">Small</button>
+                    <button href="#" class="button large m-1">Large</button>
                 </div>
             </div>
             <div class="row p-4">
@@ -105,6 +116,7 @@
 
                 <div class="col default-12 small-6 medium-4 large-3 xlarge-2 py-3 px-2">
                     <div class="card height-100">
+                        <img src="" alt="">
                         <div class="card-body">
                             <h4 class="card-title">Simple card</h4>
                             <p class="card-text">Card text here</p>
@@ -133,29 +145,54 @@
 
 
 
-
-
-
     <section>
         <div class="container p-5 m-0">
-
-            <div class="row p-4">
+            <div class="row">
                 <div class="col default-12 pb-3">
-                    <h2 class="">Form</h2>
+                    <h2 class="">Grid (12 Col)</h2>
                 </div>
             </div>
             <div class="row">
-
-                <div class="col default-12 small-6 medium-4 large-3 xlarge-2 py-3 px-2">
-                    <div class="form-group">
-                        <input class="form-element" type="text" placeholder="Text Input">
-                    </div>
-                </div>
+                <div class="grid-text">.col .default-1 and .col.default-11</div>
+                <div class="col default-1 grid"></div>
+                <div class="col default-11 grid"></div>
+            </div>
+            <div class="row">
+                <div class="grid-text">.col .default-2 and .col.default-10</div>
+                <div class="col default-2 grid"></div>
+                <div class="col default-10 grid"></div>
+            </div>
+            <div class="row">
+                <div class="grid-text">.col .default-3 and .col.default-9</div>
+                <div class="col default-3 grid"></div>
+                <div class="col default-9 grid"></div>
+            </div>
+            <div class="row">
+                <div class="grid-text">.col .default-4 and .col.default-8</div>
+                <div class="col default-4 grid"></div>
+                <div class="col default-8 grid"></div>
+            </div>
+            <div class="row">
+                <div class="grid-text">.col .default-5 and .col.default-7</div>
+                <div class="col default-5 grid"></div>
+                <div class="col default-7 grid"></div>
+            </div>
+            <div class="row">
+                <div class="grid-text">.col .default-6 and .col.default-6</div>
+                <div class="col default-6 grid"></div>
+                <div class="col default-6 grid"></div>
+            </div>
+            <div class="row">
+                <div class="grid-text">.col .default-12</div>
+                <div class="col default-12 grid"></div>
             </div>
         </div>
-        </div>
-        </div>
     </section>
+
+
+
+
+
 
     <!-- Gradients -->
     <div class="container p-2 gradient">
@@ -178,12 +215,65 @@
                 </div>
             </div>
         </div>
-        <div class="container p-5">
+        <section>
+            <div class="container p-5 m-0">
 
-            <div class="p-5">
+                <div class="row p-4">
+                    <form class="register-form" action="javascript:void(0);" onsubmit="alert(`Form Data:\n${Array.from(new FormData(this), field => field.map(encodeURIComponent).join('=')).join('&')}`)">
 
+                        <div class="">
+                            <div class="form-element">
+                                <label for="first-name">First Name</label>
+                                <input type="text" class="form-control" placeholder="John" name="first-name"></input>
+                            </div>
+                            <div class="form-element">
+                                <label for="last-name error">Last Name</label><input type="text" class="form-control" placeholder="Doe" name="last-name"></input>
+                            </div>
+                            <div class="form-element">
+                                <label for="phone">Phone</label><input type="tel" class="form-control" placeholder="13063509527" name="phone"></input>
+                            </div>
+                            <div class="form-element">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" placeholder="user@mail.com" name="email"></input>
+                            </div>
+                            <div class="form-element">
+                                <label for="password">Password</label><input type="password" class="form-control"></input>
+                            </div>
+                            <div class="form-element">
+                                <label for="Select">Select</label>
+                                <select name="" id="">
+                                    <option value="">Value</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <div class="form-element">
+                                <label for="Select">Select</label>
+                                <select name="" id="">
+                                    <option value="">Value</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-check-area">
+
+                            <input type="checkbox" id="agree-terms" class="form-check-input" name="agree-terms"></input>
+                            <label for="agree-terms" class="form-check-label">I agree to the
+                                <a href="#">Terms, Privacy Policy</a> and
+                                <a href="#">Fees</a>
+                            </label>
+
+                        </div>
+                        <div>
+                            <button type="submit" class="button success large">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
+        </section>
         <script src="./script.js"></script>
 </body>
 

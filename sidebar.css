@@ -1,0 +1,28 @@
+.docs-navbar{
+  min-width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #00000025;
+
+}
+.docs-navbar.list {
+  min-height: fit-content;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  background: rgba(255, 255, 255);
+  transition: all 0.5s ease !important;
+}
+
+.docs-navbar .list a {
+  font-size: 16px !important;
+  color: #000000aa !important;
+  font-size: 15px !important;
+  padding: 0.5rem 0.75rem;
+  min-width: auto;
+  text-align: left;
+}
+
+.docs-navbar .list a:hover,
+.docs-navbar .list a.active {
+  color: #1266f1 !important;
+}
