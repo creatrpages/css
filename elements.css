@@ -11,7 +11,7 @@
     text-decoration: none!important;
     white-space: nowrap;
     background-color: transparent;
-    border-radius: 999rem;
+    border-radius: 0.25rem;
     border: 1px solid #bbb;
     cursor: pointer;
     box-sizing: border-box;
