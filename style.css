@@ -53,6 +53,18 @@
     --yellow-08: #bb9c00;
     --yellow-09: #998000;
     --yellow-10: #776300;
+
+    /* Grey */
+    --grey-01: #f6f6f6;
+    --grey-02: #d4d4d4;
+    --grey-03: #c3c3c3;
+    --grey-04: #c3c3c3;
+    --grey-05: #a1a1a1;
+    --grey-06: #909090;
+    --grey-07: #808080;
+    --grey-08: #6e6e6e;
+    --grey-09: #5d5d5d;
+    --grey-10: #4d4d4d;
 }
 
 html {

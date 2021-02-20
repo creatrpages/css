@@ -4,7 +4,7 @@
 
 .button {
     display: inline-block;
-    padding: 0.4rem 1.5rem;
+    padding: 0.25rem 1.5rem;
     color: #555;
     text-align: center;
     font-size: 1.1rem;
@@ -99,14 +99,14 @@
 
 .button.secondary {
     color: #212121!important;
-    background: var(--green-03)!important;
-    border-color: var(--green-03)!important;
+    background: var(--grey-01)!important;
+    border-color: var(--grey-01)!important;
 }
 
 .button.secondary:hover {
     color: #212121!important;
-    background: var(--green-04)!important;
-    border-color: var(--green-04)!important;
+    background: var(--grey-02)!important;
+    border-color: var(--grey-02)!important;
 }
 
 
