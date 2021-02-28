@@ -6,62 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <title>CreatrCSS</title>
-    <link rel="stylesheet" href="./sidebar.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./elements.css">
-    <link rel="stylesheet" href="./components.css">
-    <link rel="stylesheet" href="./grid.css">
-    <link rel="stylesheet" href="./helper.css">
-    <link rel="stylesheet" href="./typoraphy.css">
-    <link rel="stylesheet" href="./form.css">
-    <link rel="stylesheet" href="./custom.css">
+    <link rel="stylesheet" href="./main.css">
 
-    <script src="./script.js"></script>
 </head>
 
 <body>
-
-    <nav class="navbar transparent">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="#">CreatrCSS</a>
-            <div class="navbar-burger" data-target="navbar">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-
-        <div id="navbar" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="#">Home</a>
-                <a class="navbar-item" href="#">Latest release</a>
-                <a class="navbar-item" href="#">FAQ</a>
-                <a class="navbar-item" href="#">About</a>
-
-            </div>
-
-            <div class="navbar-end inline-flex">
-                <div class="navbar-item nav-action">
-                    <a href="#" class="nav-button">Download</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- <nav>
-        <div class="docs-navbar row align-items-center">
-            <div class="creatrpages col default-12 large-4">
-                <h2>CreatrCSS Docs</h2>
-            </div>
-            <div class="list col default-12 large-8">
-                <a href="#" class="active">Get started</a>
-                <a href="#" class="">Colors</a>
-                <a href="#" class="">Typography</a>
-                <a href="#" class="">Grid</a>
-            </div>
-        </div>
-    </nav> -->
-    <section>
+    <div>
         <div class="container p-3 p-medium-5">
             <div class="row p-3">
                 <div class="col default-12 large-8 xlarge-6">
@@ -75,76 +25,307 @@
                     <div class="col default-12 large-8 xlarge-6">
                         <h2>Downloading</h2>
                         <p>Click on this link below and donwload the css file</p>
-                        <a href="#">Download</a>
-                        <a href="#">Alternative link</a>
+                        <a class="button m-2 primary">Download</a>
+                        <a class="button m-2">Github</a>
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
 
 
-    <section>
-        <div class="container p-3 p-medium-5">
-            <div class="row p-3">
-                <div class="col default-12 large-8">
-                    <h2>Typography</h2>
-                    <p>Typography is very important in web desinging, people only like to read text that is clearly
-                        visible and has good font</p>
-                    <!-- Here is grid -->
-                    <div>
-                        <div class="row">
-                            <div class="col default-12 medium-6">
-                                <div class="py-4">
-                                    <h1 class="large">Large h1</h1>
-                                    <h2 class="large">Large h2</h2>
-                                    <h3 class="large">Large h3</h3>
-                                    <h4 class="large">Large h4</h4>
-                                    <h5 class="large">Large h5</h5>
-                                    <h6 class="large">Large h6</h6>
-
-                                </div>
-                            </div>
-                            <div class="col default-12 medium-6">
-                                <div class="py-4">
-                                    <h1>Heading h1</h1>
-                                    <h2>Heading h2</h2>
-                                    <h3>Heading h3</h3>
-                                    <h4>Heading h4</h4>
-                                    <h5>Heading h5</h5>
-                                    <h6>Heading h6</h6>
-                                </div>
-
-                            </div>
+        <div>
+            <div class="container p-3 p-medium-5">
+                <div class="row p-3">
+                    <div class="col default-12 large-8">
+                        <h2>Typography</h2>
+                        <p>Typography is very important in web desinging, people only like to read text that is
+                            clearly
+                            visible and has good font</p>
+                        <div>
                             <div class="row">
+                                <div class="col default-12 medium-6">
+                                    <div class="py-4">
+                                        <h1 class="large">Large h1</h1>
+                                        <h2 class="large">Large h2</h2>
+                                        <h3 class="large">Large h3</h3>
+                                        <h4 class="large">Large h4</h4>
+                                        <h5 class="large">Large h5</h5>
+                                        <h6 class="large">Large h6</h6>
 
-                                <!-- Small -->
-                                <div class="col default-12 py-1">
+                                    </div>
+                                </div>
+                                <div class="col default-12 medium-6">
+                                    <div class="py-4">
+                                        <h1>Heading h1</h1>
+                                        <h2>Heading h2</h2>
+                                        <h3>Heading h3</h3>
+                                        <h4>Heading h4</h4>
+                                        <h5>Heading h5</h5>
+                                        <h6>Heading h6</h6>
+                                    </div>
 
-                                    <small> Small - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
-                                    <p>Paragraph - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <large>Large - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</large>
-                                    <p class="monospace">Monospace - Lorem, ipsum dolor sit amet consectetur adipisicing
-                                        elit.</p>
+                                </div>
+                                <div class="row">
+
+                                    <!-- Small -->
+                                    <div class="col default-12 py-1">
+
+                                        <p class="small"> Small - Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing elit.</p>
+                                        <p>Paragraph - Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <p class="large">Large - Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing elit.</p>
+                                        <p class="monospace">Monospace - Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.</p>
+                                    </div>
+
                                 </div>
 
+                                <code>Code here</code>
                             </div>
-
-                            <code>Code here</code>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-        </div>
-    </section>
 
-    <section>
+
+        <div>
+            <div class="container p-3 p-medium-5">
+                <div class="row p-3">
+                    <div class="col default-12">
+                        <h2>Colors & Elements</h2>
+                        <div>
+                            <div class="row py-5">
+                                <div class="col default-12 p-4">
+                                    <h2>Colors</h2>
+                                    <div class="row">
+                                        <div class="button p-5 m-1 colors primary"></div>
+                                        <div class="button p-5 m-1 colors secondary"></div>
+                                        <div class="button p-5 m-1 colors info"></div>
+                                        <div class="button p-5 m-1 colors success"></div>
+                                        <div class="button p-5 m-1 colors warning"></div>
+                                        <div class="button p-5 m-1 colors danger"></div>
+                                        <div class="button p-5 m-1 colors light"></div>
+                                        <div class="button p-5 m-1 colors dark"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col default-12 p-4">
+                                    <h2>Buttons</h2>
+                                </div>
+                                <div class="col default-12 p-4">
+                                    <button class="button m-2">Default</button>
+                                    <button class="button m-2 rounded">Rounded</button>
+                                    <button class="button m-2 small">Small</button>
+                                    <button class="button m-2 large">Large</button>
+                                </div>
+                                <div class="col default-12 p-4">
+                                    <button class="button m-2 primary">Primary</button>
+                                    <button class="button m-2 secondary">Secondary</button>
+                                    <button class="button m-2 info">Info</button>
+                                    <button class="button m-2 success">Success</button>
+                                    <button class="button m-2 warning">Warning</button>
+                                    <button class="button m-2 danger">Danger</button>
+                                    <button class="button m-2 dark">Dark</button>
+                                </div>
+                                <div class="col default-12 p-4">
+                                    <button class="button m-2 primary rounded">Primary</button>
+                                    <button class="button m-2 secondary rounded">Secondary</button>
+                                    <button class="button m-2 info rounded">Info</button>
+                                    <button class="button m-2 success rounded">Success</button>
+                                    <button class="button m-2 warning rounded">Warning</button>
+                                    <button class="button m-2 danger rounded">Danger</button>
+                                    <button class="button m-2 dark rounded">Dark</button>
+                                </div>
+                                <div class="col default-12 p-4">
+                                    <button class="button m-2 primary-outlined">Primary</button>
+                                    <button class="button m-2 secondary-outlined">Secondary</button>
+                                    <button class="button m-2 info-outlined">Info</button>
+                                    <button class="button m-2 success-outlined">Success</button>
+                                    <button class="button m-2 warning-outlined">Warning</button>
+                                    <button class="button m-2 danger-outlined">Danger</button>
+                                    <button class="button m-2 dark-outlined">Dark</button>
+                                </div>
+                                <div class="col default-12 p-4">
+                                    <button class="button m-2 primary-outlined rounded">Primary</button>
+                                    <button class="button m-2 secondary-outlined rounded">Secondary</button>
+                                    <button class="button m-2 info-outlined rounded">Info</button>
+                                    <button class="button m-2 success-outlined rounded">Success</button>
+                                    <button class="button m-2 warning-outlined rounded">Warning</button>
+                                    <button class="button m-2 danger-outlined rounded">Danger</button>
+                                    <button class="button m-2 dark-outlined rounded">Dark</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col default-12 p-4">
+                                    <h2>Cards</h2>
+                                </div>
+                                <div class="col default-12 small-12 medium-6 large-4 xlarge-3 p-4">
+                                    <div class="card">
+                                        <img src="https://source.unsplash.com/800x450/?nature" alt=""
+                                            class="card-image">
+                                        <div class="card-body">
+                                            <h1 class="card-title">Title</h1>
+                                            <p class="card-subtitle">Subtitle</p>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col default-12 small-12 medium-6 large-4 xlarge-3 p-3">
+                                    <div class="card">
+                                        <img src="https://source.unsplash.com/800x450/?water" alt="" class="card-image">
+                                        <div class="card-body">
+                                            <h1 class="card-title">Title</h1>
+                                            <p class="card-subtitle">Subtitle</p>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col default-12 small-12 medium-6 large-4 xlarge-3 p-3">
+                                    <div class="card">
+                                        <img src="https://source.unsplash.com/800x450/?lakes" alt="" class="card-image">
+                                        <div class="card-body">
+                                            <h1 class="card-title">Title</h1>
+                                            <p class="card-subtitle">Subtitle</p>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col default-12 small-12 medium-6 large-4 xlarge-3 p-3">
+                                    <div class="card">
+                                        <img src="https://source.unsplash.com/800x450/?forest" alt=""
+                                            class="card-image">
+                                        <div class="card-body">
+                                            <h1 class="card-title">Title</h1>
+                                            <p class="card-subtitle">Subtitle</p>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container p-3 p-medium-5">
+                <div class="row p-3">
+                    <div class="col default-12 large-8 xlarge-6">
+                        <h2>Form</h2>
+                        <p>Not all elements are ready but I will add more soon.</p>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col default-12 medium-6 large-4 xlarge-3">
+                        <div class="card">
+                            <ul>
+                                <li>
+                                    <label class="form-block">Your name</label>
+                                    <input class="form-block" placeholder="John Doe">
+                                </li>
+                                <li>
+                                    <label class="form-block">Select input</label>
+                                    <select class="form-block">
+                                        <option value="Option 1">First Options</option>
+                                        <option value="Option 2">Second Options</option>
+                                        <option value="Option 3">Third Options</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <label class="form-block">Phone no.</label>
+                                    <input class="form-block" type="number" />
+                                </li>
+                                <li>
+                                    <label class="form-block">Textarea</label>
+                                    <textarea class="form-block"></textarea>
+                                </li>
+                                <li>
+                                    <input type="radio" name="radio">
+                                    <label>Radio Input</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="checkbox">
+                                    <label>Checkbox Input</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container p-3 p-medium-5">
+                <div class="row p-3">
+                    <div class="col default-12 large-8 xlarge-6">
+                        <h2>Table</h2>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                            </tr>
+                            <tr>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                            </tr>
+                            <tr>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                            </tr>
+                            <tr>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                                <td>Table data</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div>
         <div class="container p-3 p-medium-5">
             <div class="row p-3">
                 <div class="col default-12 large-8 xlarge-6">
                     <h2>Grid</h2>
-                    <p>The grid system use in CreatrCSS is 12 Column grid system. To change col width on different
+                    <p>The grid system use in CreatrCSS is 12 Column grid system. To change col width on
+                        different
                         screen sizes, you can use the classes (.small- .medium- .large- .xlarge-)</p>
                     <!-- Here is grid -->
                     <div>
@@ -186,75 +367,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
-    <section>
-        <div class="container p-3 p-medium-5">
-            <div class="row p-3">
-                <div class="col default-12 large-8 xlarge-6">
-                    <h2>Elements</h2>
-                    <p>Not all elements are ready but I will add more soon.</p>
-                    <!-- Here is grid -->
-                </div>
-            </div>
-            <div class="row py-4">
-                <div class="col default-12 medium-6">
-                    <button class="button">Default</button>
-                    <button class="button primary">Primary</button>
-                    <button class="button secondary">Secondary</button>
-                    <button class="button info">Info</button>
-                    <button class="button success">Success</button>
-                    <button class="button warning">Warning</button>
-                    <button class="button danger">Danger</button>
-                    <button class="button light">Light</button>
-                    <button class="button dark">Dark</button>
-                </div>
-            </div>
-            <div class="row py-4">
-                <div class="col default-12 medium-6 large-4 xlarge-3 p-3">
-                    <div class="card">
-                        <img src="./images/image.svg" alt="" class="card-image">
-                        <div class="card-body">
-                            <h1 class="card-title">Title</h1>
-                            <p class="card-subtitle">Subtitle</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                            <button class="button primary block">Text</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col default-12 medium-6 large-4 xlarge-3 p-3">
-                    <div class="card"></div>
-                </div>
-                <div class="col default-12 medium-6 large-4 xlarge-3 p-3">
-                    <div class="card"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-
-            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-            if ($navbarBurgers.length > 0) {
-
-                $navbarBurgers.forEach(el => {
-                    el.addEventListener('click', () => {
-
-                        const target = el.dataset.target;
-                        const $target = document.getElementById(target);
-
-                        el.classList.toggle('active');
-                        $target.classList.toggle('active');
-
-                    });
-                });
-            }
-
-        });
-    </script>
+    <!-- </main> -->
 </body>
 
 </html>
